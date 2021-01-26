@@ -1,0 +1,213 @@
+/*!**/
+/*.App {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*}*/
+body {
+    background: rgb(27,27,30) !important;
+    color: white !important;
+    font-family: 'Hachi Maru Pop', cursive !important;
+}
+.form-container, .list-container {
+    margin-top: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(25,25,30);
+    -webkit-box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    border-radius: 20px;
+}
+.form-container {
+    height: 450px;
+}
+.list-container {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.title {
+    padding: 10px;
+    margin-left: 15px;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    height: 500px;
+    align-items: center !important;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+span {
+   margin-right: 2px !important;
+}
+span, input {
+    border-radius: 0 !important;
+    background: rgb(27,27,30) !important;
+    color: white !important;
+    border: 1px solid rgb(27,27,30) !important;
+    margin-bottom: 2px !important;
+    -webkit-box-shadow: 13px 6px 13px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 13px 6px 13px 0px rgba(0,0,0,0.15);
+    box-shadow: 13px 6px 13px 0px rgba(0,0,0,0.15);
+}
+.first span {
+    border-radius: 10px 0 0 0 !important;
+}
+.last span {
+    border-radius: 0 0 0 10px !important;
+}
+.first input {
+    border-radius: 0 10px 0 0 !important;
+}
+.last input {
+    border-radius: 0 0 10px 0 !important;
+}
+
+.input-group-text {
+    width: 165px;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-control {
+    width: 300px !important;
+    height: 50px !important;
+}
+
+button.add-book, button.showReviews, button.update, button.delete {
+    width: 150px;
+    height: 50px;
+    background:rgb(30,30,30);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+
+    -webkit-box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+}
+
+button.update, button.delete {
+    width: 130px;
+    height: 40px;
+}
+button.update {
+    margin-left: 5px;
+}
+
+button.delete {
+    float: right;
+    margin-top: 50px;
+    margin-right: 10%cd;
+}
+/*
+.forms button {
+    justify-content: center;
+    justify-items: center ;
+    align-items: center ;
+}*/
+
+button.showReviews {
+    float: right !important;
+    margin-right: 80%;
+
+}
+
+.showBooks {
+    border-radius: 10px;
+    background-color: rgb(27,27,30);
+    padding: 20px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    -webkit-box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    display: flex;
+    flex-direction: row;
+
+}
+
+input.list  {
+    background-color: rgb(22,22,22) !important;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.list-option {
+    margin-left: auto;
+}
+
+
+/*.form{*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  width: 100%;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+
+/*.form input {*/
+/*  width: 70%;*/
+/*  height: 50px;*/
+/*  font-size: 20px;*/
+/*  padding-left: 10px;*/
+/*  margin: 5px;*/
+/*}*/
+
+/* button {*/
+/*  width: 50%;*/
+/*  height: 50px;*/
+/*  margin-top: 15px;*/
+/*  border-radius: 5px;*/
+/*  border: none;*/
+/*  background: black;*/
+/*  color: white;*/
+/*}*/
+
+/* button:hover {*/
+/*  cursor: pointer;*/
+/*}*/
+
+/* .employees {*/
+/*     display: flex;*/
+/*     align-items: center;*/
+/*     flex-direction: column;*/
+/*     width: 100%;*/
+/* }*/
+
+/* .showEmployees {*/
+/*     width: 100%;*/
+/*     height: 300px;*/
+/*     border: 1px solid black;*/
+/*     margin: 10px;*/
+/*     padding: 10px;*/
+/*     font-family: sans-serif;*/
+/*     display: flex;*/
+/* }*/
+
+
+
+/* .showEmployees h3 {*/
+
+/* }*!*/
